@@ -19,6 +19,8 @@ let length = 2;
 let breath = 2;
 let height = 2;
 
-let product = myVolume(3);
+let product = myVolume(1);
 
 console.log(product);
+
+
