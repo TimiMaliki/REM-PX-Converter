@@ -1,10 +1,10 @@
-function squareRoot(value){
-      let result = value + Math.sqrt(9);
+function squareRoot(number){
+      let result = number + Math.sqrt(9);
       
       return result; 
 }
 
-let myValue = squareRoot(2);
+let myValue = squareRoot(0);
 
  
 console.log(myValue);
