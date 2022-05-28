@@ -24,9 +24,13 @@ let product = myVolume(1);
 console.log(product);
 
 function myMultiply(digits){
-      let result = digits * [2,3,4,5];
-
-      return result;
+      let result = digits * array[a,b,c,d,e];
+       return result;
 }
 
-let finalResults = ()
+let a = 2;
+let b = 3;
+let c = 4;
+let d = 5;
+let e = 5;
+let finalResults = myMultiply(3);
