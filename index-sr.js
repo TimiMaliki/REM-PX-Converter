@@ -57,6 +57,23 @@ let one = 1;
 let rate = 0.03875;
 let time = 5;
 
+
 let simple = simpleInterest();
 console.log(simple);
+
+// Area of triangle
+
+function areaOfTriangle(){
+    let result = 1/2 *  base * heigth;
+    return result;
+};
+
+let base = 4;
+let heigth = 3;
+
+let area = areaOfTriangle();
+console.log(area);
+
+
+
 
