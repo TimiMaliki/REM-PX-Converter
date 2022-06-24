@@ -9,6 +9,8 @@ let myValue = squareRoot(0);
  
 console.log(myValue);
 
+
+
 function myVolume(value){
       let result = value* length * breath * height;
        return result;
@@ -29,4 +31,18 @@ function myMultiply(digits){
       return result;
 }
 
-let finalResults = ()
+function simpleIntetrest(amount){
+      let result = principal*(one+rate*time);
+      
+      return result;
+};
+
+let principal = 10000;
+let rate = 0.03875;
+let time = 5;
+let one = 1;
+
+let amount = simpleIntetrest();
+
+
+console.log(amount);
