@@ -46,3 +46,18 @@ let amount = simpleIntetrest();
 
 
 console.log(amount);
+//ends
+
+function totalSurfaceArea(csa){
+      // where csa is the curved surface area
+      let result = 2*radius*hight*pie;
+       return result;
+};
+
+let radius = 7;
+let  hight =14;
+let  pie = 3.14;
+
+ let csa = totalSurfaceArea();
+
+ console.log(csa);
