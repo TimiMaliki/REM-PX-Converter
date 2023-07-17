@@ -14,7 +14,7 @@ function decrement (){
   //  setCount(previousCount  => previousCount - 1)
 
   setUpdate(prevState => {
-    return {count: prevState.count - 1}
+    return {...prevState ,count: prevState.count - 1}
   })
 
 
@@ -23,6 +23,9 @@ function decrement (){
 
  function increment (){
   // setCount(previousCount  => previousCount + 1)
+  setUpdate(prevState => {
+    return {...prevState ,count: prevState.count + 1}
+  })
  }
 
   return (
