@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './App.css'
-
+import  UseEffect  from '../src/components/UseEffect'
 
 
 
@@ -31,6 +31,10 @@ const App = () => {
 
   return (
     <div>
+
+       <h1>UseState</h1>
+       <br />
+       <br />
       <h1> My BioData now</h1>
             <ul>
               <li>{name}</li>
@@ -47,6 +51,11 @@ const App = () => {
 
               <button onClick={BioUpdate}>Click Me</button>
             </h1>
+
+            <br />
+            <br />
+            <br />
+            <UseEffect/>
     </div>
   )
 }
@@ -54,6 +63,8 @@ const App = () => {
 export default App
 
 //   //example One
+
+// const App = () => {
 //   const [setState , setUpdate] = useState({
 //     count: 4 , theme: "Red"
 //   })
@@ -64,9 +75,9 @@ export default App
 // function decrement (){
 //   //  setCount(previousCount  => previousCount - 1)
 
-  // setUpdate(prevState => {
-  //   return {...prevState ,count: prevState.count - 1}
-  // })
+//   setUpdate(prevState => {
+//     return {...prevState ,count: prevState.count - 1}
+//   })
 
 
 
@@ -78,9 +89,15 @@ export default App
 //     return {...prevState ,count: prevState.count + 1}
 //   })
 //  }
-//    <button onClick={decrement}>-</button>
+ 
+//   return (
+//     <div>
+//       <button onClick={decrement}>-</button>
 //      {count}{theme}
 //      <button onClick={increment}>+</button> 
+//     </div>
+//   )
+// }
 // export default App
 
 
@@ -91,26 +108,26 @@ export default App
  //   // exampleTwo
 // const App = () => {
  
-  //   const [myFavColor, updateTheColor] = useState({ color: "red" , change: ' white'})
+//     const [myFavColor, updateTheColor] = useState({ color: "red" , change: ' white'})
   
-  //   const color = myFavColor.color
+//     const color = myFavColor.color
   
-  //   const  change = myFavColor.change
+//     const  change = myFavColor.change
   
-  // function changingColor(){
-  //   updateTheColor(previousState => {return {...previousState , color:"blue" , change:"green"}
-  // })
-  // }
+//   function changingColor(){
+//     updateTheColor(previousState => {return {...previousState , color:"blue" , change:"green"}
+//   })
+//   }
   
-  //   return (
-  //     <div>
-  //       <h2>My fav color <br /><br />
-  //         {color}{change}  <br /> <br />
-  //         but my pure color is
-  //         <button onClick={changingColor}></button>
-  //       </h2>
-  //     </div>
-  //   )
-  // }
+//     return (
+//       <div>
+//         <h2>My fav color <br /><br />
+//           {color}{change}  <br /> <br />
+//           but my pure color is
+//           <button onClick={changingColor}></button>
+//         </h2>
+//       </div>
+//     )
+//   }
   
   // export default App
