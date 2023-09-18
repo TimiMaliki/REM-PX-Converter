@@ -39,10 +39,7 @@ body {
   text-align: center;
 }
 .btns {
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    margin-top: 2rem;
+   display: grid;
   }
 button {
   width: 100px;
@@ -56,6 +53,12 @@ button {
     text-align: center;
     margin-top: 7rem;
 }
+ i{
+  color: #000;
+  cursor: pointer;
+  font-size: 24px;
+ }
+
 
 @media (max-width: 800px) {
   .wrapper {

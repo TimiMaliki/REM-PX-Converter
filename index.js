@@ -3,6 +3,7 @@ const pxValue = document.querySelector(".px");
 const remValueInput = document.querySelector(".remNum");
 const pxValueInput = document.querySelector(".pxNum");
 const button = document.querySelector(".btn");
+const btn = document.querySelector('.btn-Two')
 const resetBtn = document.querySelector(".reset-btn");
 
 
@@ -10,6 +11,10 @@ const resetBtn = document.querySelector(".reset-btn");
 
 button.addEventListener("click", (e) => {
     remValueField()
+
+})
+
+btn.addEventListener("click", (e) => {
     pxValueField()
 })
 
