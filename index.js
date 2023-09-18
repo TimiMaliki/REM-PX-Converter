@@ -21,8 +21,8 @@ btn.addEventListener("click", (e) => {
 
 
 resetBtn.addEventListener("click", (e) => {
-    pxValue.innerHTML = "px"
-    remValue.innerHTML = "rem"
+    pxValue.innerHTML = ""
+    remValue.innerHTML = ""
     remValueInput.value = ''
     pxValueInput.value  =''
 })
