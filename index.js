@@ -11,11 +11,12 @@ const resetBtn = document.querySelector(".reset-btn");
 
 button.addEventListener("click", (e) => {
     remValueField()
-
+    remValue.innerHTML = `${remValueInput.value}rem`
 })
 
 btn.addEventListener("click", (e) => {
     pxValueField()
+    pxValue.innerHTML =  `${pxValueInput.value}px`
 })
 
 
@@ -28,14 +29,14 @@ resetBtn.addEventListener("click", (e) => {
 
 function remValueField(){
 
-    pxValue.innerHTML = `${remValueInput.value * 16 } px` 
+ return   pxValue.innerHTML = `${remValueInput.value * 16 } px` 
  
 }
 
 
 function pxValueField(){
-    remValue.innerHTML = `${pxValueInput.value / 16} rem`
-    
+    return    remValue.innerHTML = `${pxValueInput.value / 16} rem`
+        
 }
 
 
