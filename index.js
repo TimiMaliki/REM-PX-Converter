@@ -23,19 +23,19 @@ btn.addEventListener("click", (e) => {
 resetBtn.addEventListener("click", (e) => {
     pxValue.innerHTML = ""
     remValue.innerHTML = ""
-    remValueInput.value = ''
-    pxValueInput.value  =''
+    remValueInput.value = ""
+    pxValueInput.value  = ""
 })
 
 function remValueField(){
 
- return   pxValue.innerHTML = `${remValueInput.value * 16 } px` 
+    pxValue.innerHTML = `${remValueInput.value * 16 } px` 
  
 }
 
 
 function pxValueField(){
-    return    remValue.innerHTML = `${pxValueInput.value / 16} rem`
+        remValue.innerHTML = `${pxValueInput.value / 16} rem`
         
 }
 

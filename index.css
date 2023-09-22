@@ -49,6 +49,9 @@ button {
   border-radius: 15px;
   background: purple;
 }
+input{
+  border: 1px solid mediumslateblue;
+}
 .title{
     text-align: center;
     margin-top: 7rem;
